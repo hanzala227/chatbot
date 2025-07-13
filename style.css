@@ -99,8 +99,8 @@ box-sizing: border-box;
 
 right: 3%;
 position: relative;
-    border-radius:50px;
-    padding: 10px 20px;
+  padding: 15px 15px 15px 10px;
+            border-radius: 20px;
 
 }
 #userImage{
@@ -123,10 +123,10 @@ box-sizing: border-box;
     box-sizing: border-box;
   box-shadow: inset 0px 0px 2px var(--ai-second-color), 0px 0px 6px var(--ai-second-color);
             border: .5px solid var(--ai-second-color);
-    border-radius: 20px;
-    padding: 10px 20px;
+    padding: 15px 15px 15px 10px;
+            border-radius: 30px;
+
     left: 10%;
-        border-radius: 50px;
 
     position: relative;
 
@@ -265,9 +265,12 @@ box-sizing: border-box;
     .ai-chat-area{
         font-size: .6rem;
         top: 20%;
+        max-width: 100%;
     }
       .user-chat-area{
         font-size: .6rem;
+                max-width: 100%;
+
         top: 20%;
     }
     .load{
